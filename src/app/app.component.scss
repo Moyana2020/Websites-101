@@ -1,35 +1,35 @@
-.mat-toolbar {
-    position: relative;
-    z-index: 1;
-    overflow-x: auto;
-     display: flex;
-    flex-direction: row;
-    background-color :white;
-    border: black;
-    opacity: 0.9;
-  }
+ mat-toolbar {
+     position: relative;
+     z-index: 1;
+     overflow-x: auto;
+      display: flex;
+     flex-direction: row;
+     background-color :white;
+     border: black;
+     opacity: 0.9;
+   }
   
-  mat-toolbar-row {
-    justify-content:space-between;
-  }
+   mat-toolbar-row {
+     justify-content:space-between;
+   }
   
-  .spacer {
-    flex: 1 1 auto;
-  }
+   .spacer {
+     flex: 1 1 auto;
+   }
   
  
-  h1 {
-    margin: 0;
-  }
+   h1 {
+     margin: 0;
+   }
   
-  h1 .light {
-    font-weight: 100;
+   h1 .light {
+     font-weight: 100;
+   }
+
+  .image{
+    height: 52px;
   }
 
- .image{
-   height: 52px;
- }
-
- a{
-  color: #117fae;
- }
+  a{
+   color: #117fae;
+  }
