@@ -1,17 +1,12 @@
 <img class="fullBg" appFullpage [src]="page.image">
 
-<div *ngIf="page.title==='Our Services'">
-  <mat-card class="descrpt-card">
-    <h2>
-      Make the forecast cloudy with a chance of awesomeness! Our state of the art virtual hosting environment means
-      more scalability, more redundancy and minimal downtime in the event of errors.
-    </h2>
-  </mat-card>
+<div  *ngIf="page.title==='Our Services'">
+  
 
-  <div class="grid grid-cols-3  grid-flow-col mr-60 ml-60">
+  <div class="grid grid-cols-3  grid-flow-col mr-60 ml-60 mt-4 ">
 
     <span>
-      <mat-card class="flex justify-center">
+      <mat-card class="opacity-95">
         <mat-card-header>
           <div mat-card-avatar class="example-header-image"></div>
           <mat-card-title>Linux Web Hosting</mat-card-title>
@@ -32,12 +27,12 @@
           </mat-list>
         </mat-card-content>
         <mat-card-actions>
-          <button class="primary-button" mat-raised-button>NEXT</button>
+          <button class="primary-button" mat-raised-button>Add to Cart</button>
         </mat-card-actions>
       </mat-card>
     </span>
     <span>
-      <mat-card>
+      <mat-card class="opacity-95">
         <mat-card-header>
           <div mat-card-avatar class="example-header-image"></div>
           <mat-card-title>Cloud Hosting</mat-card-title>
@@ -58,12 +53,12 @@
           </mat-list>
         </mat-card-content>
         <mat-card-actions>
-          <button class="primary-button" mat-raised-button>NEXT</button>
+          <button class="primary-button" mat-raised-button>Add to Cart</button>
         </mat-card-actions>
       </mat-card>
     </span>
     <span>
-      <mat-card >
+      <mat-card class="opacity-95">
         <mat-card-header>
           <div mat-card-avatar class="example-header-image"></div>
           <mat-card-title>Specialised Hosting</mat-card-title>
@@ -84,15 +79,15 @@
           </mat-list>
         </mat-card-content>
         <mat-card-actions>
-          <button class="primary-button" mat-raised-button>NEXT</button>
+          <button class="primary-button" mat-raised-button>Add to Cart</button>
         </mat-card-actions>
       </mat-card>
     </span>
 
-   
+
   </div>
-  <div class="button-row">
-    <button mat-raised-button>NEXT</button>
+  <div class="flex justify-center mt-8">
+    <button mat-raised-button>Proceed to checkout</button>
   </div>
 
 

@@ -15,7 +15,7 @@ export class PageComponent implements OnInit {
     subtitle: 'Welcome Home!',
     content: 'Some home content.',
     image: 'assets/bg00.jpg',
-    services : ['','']
+    services: ['', '']
   };
 
   linuxImage = 'assets/linux.png';
@@ -30,12 +30,12 @@ export class PageComponent implements OnInit {
     this.page = this.contentService.pages[pageData];
   }
 
-  LoadPersonalInfo(){
-    this.page = {title:'Your Information', subtitle : 'Tell us about yourself', content:'Your Info', image:'assets/bgg.jpg', services : []};
+  LoadPersonalInfo() {
+    this.page = { title: 'Your Information', subtitle: 'Tell us about yourself', content: 'Your Info', image: 'assets/bgg.jpg', services: [] };
   }
-  
-  LoadHomePage(){
-    this.page = {title: 'Our Services', subtitle: 'Welcome Home!', content: 'Some home content.', image: 'assets/bgg.jpg', services : ['service1','service2','service3']};
+
+  LoadHomePage() {
+    this.page = { title: 'Our Services', subtitle: 'Welcome Home!', content: 'Some home content.', image: 'assets/bgg.jpg', services: ['service1', 'service2', 'service3'] };
   }
 
 
